@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { CreateUserUseCase } from './CreateUserUseCase';
+import { CreateUserUseCase } from './create-user-usecase';
 
 export class CreateUserController {
   constructor(

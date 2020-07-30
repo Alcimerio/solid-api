@@ -1,9 +1,9 @@
 import { UsersRepository } from '../../repositories/UsersRepository';
 
-import { CreateUserRequestDTO } from './CreateUserDTO';
-import { User } from './../../entities/User';
+import { CreateUserRequestDTO } from './create-user-dto';
+import { User } from '../../entities/User';
 
-import { MailProvider } from './../../providers/MailProvider';
+import { MailProvider } from '../../providers/MailProvider';
 
 export class CreateUser {
   constructor(
